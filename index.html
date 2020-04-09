@@ -1,301 +1,764 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>MITSAT</title>
-    <link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Muli:300,400,700,900" rel="stylesheet" type="text/css">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css" type="text/css">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Team MIT SAT</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css" type="text/css">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" type="text/css">
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
-    <link rel="stylesheet" href="css/aos.css" type="text/css">
+</head>
 
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-  
+<body>
+<style>
+.parallax { 
+  /* The image used */
+  background-image: url("img_parallax.jpg");
 
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
+  /* Set a specific height */
+  height: 500px; 
 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-  <div class="site-wrap">
+      <nav id="nav-wrap">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Details</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Current Progress</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Vision</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+		
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline" style="background-color: #55555577">Welcome to MIT SAT</h1>
+			<h3><span style="background-color: #55555577">Student Satellite Team of MIT College of Engineering, Pune.</span>
+			</h3>
+            <!--<h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
+            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>-->
+            <hr />
+            <ul class="social">
+             <!--  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+			   <li><a href="https://www.linkedin.com/company/mitsat/" target = "_blank" ><i class="fa fa-linkedin"></i></a></li>
+			   <li><a href="https://www.instagram.com/mit_sat_cansat/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
       </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-   
-    
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-      
-      <div class="container-fluid">
-        <div class="d-flex align-items-center">
-          <div class="site-logo"><a href="index.html" class="text-uppercase">MITSAT</a></div>
-          <div>
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-xl-block">
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                <li><a href="#sponsor-section" class="nav-link">Sponsors</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-      
-    </header>
 
-    <div class="intro-section custom-owl-carousel" id="about-section">
-      <div class="container">
-        <div class="row align-items-center" >
-        
-          <div class="col-lg-5 mr-auto" data-aos="fade-up">
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-            <div class="owl-carousel slide-one-item-alt-text">
-              
-              <div class="slide-text">
-                <h1>Welcome</h1>
-                <p class="mb-5">Team MITSAT is official student satellite team of MIT-WPU. </p>
-              </div>
-              
-              <div class="slide-text">
-                <h1>We Do Awesome Things</h1>
-                <p class="mb-5">Participating in CANSAT competition is one of our major activities as well as cultivate the Space-Tech culture here at MITWPU. </p>
-              </div>
-              
-              <div class="slide-text">
-                <h1>The team</h1>
-                <p class="mb-5">We are a multi-domain engineering team of Space Technology Enthusiasts. </p>
-              </div>
-              
-            </div>
-
-          </div>
-          <div class="col-lg-6 ml-auto"  data-aos="fade-up" data-aos-delay="400">
-                        
-            <div class="owl-carousel slide-one-item-alt">
-              <img src="images/logo.jpg" alt="Image" class="img-fluid">
-              <img src="images/img_2.jpg"  class="img-fluid">
-              <img src="images/team.jpg" alt="Image" class="img-fluid">
-              
-            </div>
-
-            <div class="owl-custom-direction">
-              <a href="#" class="custom-prev"><span class="icon-keyboard_arrow_left"></span></a>
-              <a href="#" class="custom-next"><span class="icon-keyboard_arrow_right"></span></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+   </header> <!-- Header End -->
 
 
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+		
+      <div class="row">
 
-    <div class="site-section section-2" id="work-section" data-aos="fade">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            <h2 class="section-title">Our Work</h2>
-            <p style="font-weight: bold">The mission for CanSat 2020 required a container to release a delta glider which would house the electronics. It would glide in a circular pattern and eventually deploy a parachute to land itself. The electronics would serve the purpose of collecting atmospheric data and particulate matter.</p>
-          </div>
-        </div>
+         <div class="three columns">
 
-      </div>
-        
+            <img class="profile-pic"  src="favicon.png" alt="" />
 
+         </div>
 
+         <div class="nine columns main-col">
 
-      <div class="owl-carousel nonloop-block-13">
+            <h2>About Team</h2>
 
-          <a class="work-thumb" href="images/img_1.jpeg" data-fancybox="gallery">
-            <img src="images/img_1.jpeg" alt="Image" class="img-fluid">
-          </a> 
-          
-          <a class="work-thumb" href="images/img_2.jpeg" data-fancybox="gallery">
-            <img src="images/img_2.jpeg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/img_3.jpeg" data-fancybox="gallery">
-            <img src="images/img_3.jpeg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/img_4.jpeg" data-fancybox="gallery">
-            <img src="images/img_4.jpeg" alt="Image" class="img-fluid">
-          </a>
-
-          <a class="work-thumb" href="images/img_5.jpeg" data-fancybox="gallery">
-            <img src="images/img_5.jpeg" alt="Image" class="img-fluid">
-          </a>
-      </div>
-    
-
-    </div>
-
-
-    <div class="site-section section-2 bg-light" id="sponsor-section" data-aos="fade">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5">
-            <h2 class="section-title">Our Sponsors</h2>
-            <p>We are happy to announce that our software sponsors are “SimScale” and “CAESES”, links to both platforms are provided in the sections following.
-“Trimension”, a local 3D printing business has partnered with us to provide us discounted rates for additive manufacturing procceses.</p>
-          </div>
-        </div>
-        <div class="row">
-        
-          
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <a href="https://www.simscale.com/">
-            <div class="sponsor_card bg-white rounded" >
-              <div>
-                <h3>Simscale</h3>
-                <img src="images/sponsor_2.jpeg" alt="Image" class="img-fluid">
-              </div>
-            </div>
-          </a>
-          </div>
-          
-          
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-             <a href="https://www.caeses.com/">
-            <div class="sponsor_card bg-white rounded" >
-              <div>
-                <h3>Caeses</h3>
-                <img src="images/sponsor_1.png" alt="Image" class="img-fluid">
-              </div>
-
-            </div>
-            </a>
-          </div>
-          
-          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-            <div class="sponsor_card bg-white rounded" >
-              <div>
-                <h3>Trimension</h3>
-                <img src="images/sponsor_3.jpg" alt="Image" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-
-
-    <div class="site-section" id="contact-section"  data-aos="fade">
-      <div class="container">
-        <h2 class="section-title mb-3">Contact Us</h2>
-        <p class="mb-5">Want to talk to us fell free to leave us a message</p>
-
-       
-          
-         
-          
-          
-           <div class="row">
-           
-            <div class="col">
-            <div class="contact bg-white rounded">
-                <h3>Soham Aserkar</h3>
-                <h4>Team Captain</h4>
-                <h4><a href = "mailto: soham339@gmail.com">email</a></h4>
-            </div>
-            </div>
-            
-            <div class="col">
-            <div class="contact bg-white rounded">
-                <h3>Prachit Kamble</h3>
-                <h4>Team advisor</h4>
-                <h4><a href = "mailto: prachitkamble97@gmail.com">email</a></h4>
-            </div>
-            </div>
-            
-            <div class="col">
-            <div class="contact bg-white rounded">
-                <h3>Ninad Bhagwat</h3>
-                <h4>Team advisor</h4>
-                <h4><a href = "mailto: ninadgbhagwat@gmail.com">email</a></h4>
-            </div>
-            </div>
-            
-            <div class="col">
-            <div class="contact bg-white rounded">
-                <h3>Richal Abhang</h3>
-                <h4>Team advisor</h4>
-                <h4><a href = "mailto: richalabhang@gmail.com">email</a></h4>
-            </div>
-            </div>
-            
-            
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-
-  
-     
-    <footer class="footer-section bg-light">
-     
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <p>CanSat is a annual competition organised by American Astronautical Society. Teams has to build their own  'can' sized satellites as per guidelines given by organizers. The 2019 mission is to explore the use of auto-gyro descent control of a science payload when released from the launch vehicle. We are frist team from our university to participate in this competition and are planning to make it an yearly tradition.
             </p>
-            
-            </div>
-          </div>
-          
-        </div>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   
+						   <span>MIT College of Engineering <br>
+						         Kothrud, Pune -411038.
+                     </span><br>
+						   
+                     <span>richalabhang@gmail.com</span><br>
+					 <span>prachitkamble97@gmail.com</span>
+					   </p>
+
+               </div>
+
+              
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
       </div>
-    </footer>
 
-  
-    
-  </div> <!-- .site-wrap -->
+   </section> <!-- About Section End-->
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>t
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/main.js"></script>
-    
-  
-  </body>
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Mission Overview</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>CanSat</h3>
+                <p class="info">Objective  <!--<em class="date">April 2007</em>--></p>
+				
+                  <p>
+					 Build a CanSat having a science payload which will descend using passive auto gyro. Basically CanSat is made of 2 parts container and science payload. Container will decend using parachute and science payload should descend using autogyro. CanSat will be launched at 670 to 725 meters height by a sounding rocket. It shall release science payload at 450 meter height while descending. 
+                  </p>
+				  
+				  <p class="info">Bonus  <!--<em class="date">April 2007</em>--></p>
+				  <p> Camera mounted at an angle of 45° from nadir of science payload. It shall point in one direction relative to the earth’s magnetic field with a stability of +/- 10 degrees in all directions during descent. </p>
+				  
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Ground Station</h3>
+                <!--  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p> -->
+				<p class="info">Objective  <!--<em class="date">April 2007</em>--></p>
+                  <p>
+					All CanSat data should be visible live at ground station with refresh rate of atleast 1Hz. Ground station should plot all the data in graphs. Ground Station should display Latitude, Longitude, Altitude, Temprature, Air Pressure and RPM of auto gyro. Ground Station should command CanSat to reset or calibrate sensors.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Team</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+		<div class="three columns">
+
+            <img class="profile-pic"  src="richal.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Richal Abhang</h3>
+                  <p class="info">Mechanical Engineering <span>&bull;</span> <em class="date">Final Year </em><span>&bull;</span>	<em class="date">Member of AIAA and SAE</em></p>
+
+                  <p>
+					Design and analysis of Autogyro of science payload to decelarate it to 10 m/s.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+				<div class="three columns">
+
+            <img class="profile-pic"  src="prachit.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Prachit Kamble</h3>
+                  <p class="info">Mechanical Engineering<span>&bull;</span> <em class="date">Final Year</em><span>&bull;</span>	<em class="date">Member of AIAA</em></p>
+
+                  <p>
+					Design, analysis and ensuring compliance of mechnical subsystem according to mission objectives.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+			
+			 <div class="row item">
+
+				<div class="three columns">
+
+            <img class="profile-pic"  src="ninad.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Ninad Bhagwat</h3>
+                  <p class="info">Mechanical Engineering<span>&bull;</span> <em class="date">Final Year</em><span>&bull;</span>	<em class="date">Member of AIAA</em></p>
+
+                  <p>
+						Facbrication of CanSat and documentaton.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+			
+			 <div class="row item">
+
+				<div class="three columns">
+
+            <img class="profile-pic"  src="toyas.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Toyas Dhake</h3>
+                  <p class="info">Computer Engineering<span>&bull;</span> <em class="date">Final Year</em><span>&bull;</span>	<em class="date">Member of Computer Society of India, Pune</em></p>
+
+                  <p>
+					Designing, development and testing of Flight Software.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+
+			 <div class="row item">
+
+				<div class="three columns">
+
+            <img class="profile-pic"  src="arpan.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Arpan Kushwaha</h3>
+                  <p class="info">Computer Engineering<span>&bull;</span> <em class="date">Final Year</em></p>
+
+                  <p>
+						Design and Develope Ground Station UI.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+			 <div class="row item">
+
+				<div class="three columns">
+
+            <img class="profile-pic"  src="soham.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Soham Aserkar</h3>
+                  <p class="info">Electronics and Telecommunication Engineering<span>&bull;</span> <em class="date">3rd Year</em></p>
+
+                  <p>
+						Designing electronic subsystem. Design, manufacturing and testing of required PCB.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Sponsors</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+<div class="three columns">
+
+            <img class="profile-pic"  src="0.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>Automotive Research Association of India (ARAI)</h3>
+                 
+
+                  <p>
+					ARAI has agreed to help us in vibration and thermal testing of our CanSat.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+				
+			<div class="row item">
+
+<div class="three columns">
+
+            <img class="profile-pic"  src="SimScale.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>SimScale</h3>
+                 
+
+                  <p>
+					SimScale has provided sponsorship to Team MitSat of 10,000 core hours and premium supported acedamic account, to take care of simulation need.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+        
+			<div class="row item">
+
+<div class="three columns">
+
+            <img class="profile-pic"  src="caeses.png" alt="" />
+
+         </div>
+               <div class="twelve columns">
+
+                  <h3>CAESES</h3>
+                 
+
+                  <p>
+					Software access for genrating CAD models of rotors.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Our Current Progress</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="IITB.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Ground Station Workshop</h5>
+                              <p>IIT Bombay</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="CANSAT_2 v35.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Model of our CanSat</h5>
+                              <p>Fusion 360</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+				<div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="Processing_3_logo.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Ground Station Software</h5>
+                              <p>Processing 3</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+				<div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Filght Software</h5>
+                              <p>Arduino</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+				<div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="CanSatWorkshop.JPG">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>CanSat Workshop</h5>
+                              <p>MIT COE, Pune</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+				
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="IITB.jpeg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Ground Station Workshop</h4>
+			      <p>Amazing workshop organized by students of IIT Bombay, sharing their experience during the design and development of Pratham Student Satellite.</p>
+               
+		      </div>	
+
+            <div class="link-box">
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="1.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Model of our CanSat</h4>
+			      <p>This is the model of our CanSat compiling with all the regulation of CanSat Competition 2019. It is capable of completing all the required tasks and bonus tasks.</p>
+               
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="ui.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Ground Station Software</h4>
+			      <p>Ground Station software is developed using Processing IDE. Ground station has to get data from CanSat through XBee and display it in real time on screen with atleast 1 Hz refresh rate. Processing is chossen because it has built in functionality for Serial interfacing, UI rendering and graph ploting. It is JAVA based environment hence we can use features of JAVA which are specificaly develpoed for User Interface.</p>
+              
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="ArduinoCommunityLogo.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+              
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="CanSatWorkshop2.JPG" alt="" />
+
+		      <div class="description-box">
+			      <h4>CanSat Workshop</h4>
+			      <p>We organized a seminar by Dr. Suresh Naik, Ex group Director ISRO Ahemdabad, on CanSat. It gave us insite about how 'can' sized satellites are developed and work. And also what the difficulties and requirements for CanSat.</p>
+              
+		      </div>
+
+            <div class="link-box">
+               
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+ 
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p style="background-color: #55555577">Start a year tradition of particiapting in CanSat competition. Make students from our university intrested in space technology. To stay on the frontier of developement of micro satellites.
+                           </p>
+                           <!--<cite>Steve Jobs</cite>-->
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                    <!-- <li>
+                        <blockquote>
+                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                           </p>
+                           <cite>Mr. Adobe</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+              <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+			   <li><a href="https://www.linkedin.com/company/mitsat/" target  = "_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/mit_sat_cansat/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
